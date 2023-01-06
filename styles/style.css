@@ -62,6 +62,10 @@ img {
     text-align: center;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
 /* Main header styles */
 .main-header {
     width: 100%;
@@ -162,4 +166,112 @@ img {
 .donate-payment-system {
     display: flex;
     justify-content: center;
+}
+
+/* Donation Section */
+.donate-plan {
+    margin-top: 130px;
+}
+
+.donation-cards {
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    margin-bottom: 130px;
+}
+
+.donation-card {
+    padding: 54px 22px;
+    border-radius: 5px;
+}
+
+.donation-card:nth-child(1) {
+    background-color: #EDF5F6;
+}
+
+.donation-card:nth-child(2) {
+    background-color: #FCFCFC;
+}
+
+.donation-card:nth-child(3) {
+    background-color: #FFF4D6;
+}
+
+.donation-card .donation-card-img {
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.donation-card .donation-card-title {
+    font-family: var(--ff-inter);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #121212;
+}
+
+.donation-card .donation-card-des {
+    font-size: 1rem;
+    color: #707070;
+    font-family: var(--ff-poppins);
+}
+
+.donation-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.donation-description {
+    margin-bottom: 100px;
+}
+
+/* News Letter */
+.updates {
+    margin-top: 130px;
+}
+
+.newsletter-main {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-container {
+    width: 80%;
+    padding: 76px;
+    background-color: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-form {
+    width: 432px;
+    height: 48px;
+    background-color: #D9D9D9;
+}
+
+.newsletter-form form {
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter-form form input[type="email"] {
+    border: none;
+    outline: none;
+    width: 64%;
+    height: 100%;
+    background: none;
+    padding-left: 20px;
+}
+
+.newsletter-form form input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: #FF5959;
+    width: 35%;
+    height: 100%;
+    color: #fff;
+    font-family: var(--ff-poppins);
 }
